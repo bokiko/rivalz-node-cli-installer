@@ -20,13 +20,12 @@ Ensure your system meets the following requirements:
 
 Follow these steps to install and run the Rivalz Node CLI using the provided script.
 
-### Step 1: Clone the Repository
+### Step 1: Direct Execution
 
-Clone this repository to your local machine:
+Run the following command to download and execute the installation script directly:
 
 ```bash
-git clone https://github.com/your-username/rivalz-node-cli-installer.git
-cd rivalz-node-cli-installer
+curl -sL https://raw.githubusercontent.com/bokiko/rivalz-node-cli-installer/main/install_rclient.sh | bash
  ```
 
 
