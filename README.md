@@ -5,10 +5,15 @@ Welcome to the Rivalz Node CLI installation script repository. This repository c
 ## Prerequisites
 
 Ensure your system meets the following requirements:
+
 -RAM 4GB
+
 -4 Cores (2.2GHz)
+
 -50GB SSD
+
 -1Mbps Internet
+
 - Ubuntu operating system
 
 ## Installation
