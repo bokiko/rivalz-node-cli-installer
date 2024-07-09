@@ -69,7 +69,7 @@ To detach from the tmux session (without stopping the process):
 Press Ctrl+B, then D.
 
 ## Contributing
-Feel free to fork this repository, make improvements, and submit pull requests. We welcome contributions from the community!
+Feel free to fork this repository, make improvements. We welcome contributions from the community!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
