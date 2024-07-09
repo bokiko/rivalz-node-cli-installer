@@ -31,16 +31,7 @@ curl -sL https://raw.githubusercontent.com/bokiko/rivalz-node-cli-installer/main
 
 
 
-## Step 2: Make the Script Executable
-Make the installation script executable:
-```bash
-chmod +x install_rclient.sh
-```
-## Step 3: Run the Script
-Execute the script to install and run the Rivalz Node CLI:
-```bash
-./install_rclient.sh
-```
+
 ## What the Script Does
 - Updates and upgrades the system to ensure all packages are current.
 - Installs Node.js and NPM using NodeSource.
@@ -50,12 +41,12 @@ Execute the script to install and run the Rivalz Node CLI:
 - Installs tmux for session management.
 - Starts a new tmux session named rclient_session and runs rivalz run inside it.
   
-## Step 4: Reattach to the tmux Session
+## Step 2: Reattach to the tmux Session
 To reattach to the tmux session where the Rivalz Node CLI is running:
 ```bash
 tmux attach -t rclient_session
 ```
-## Step 5: Configure the Node
+## Step 3: Configure the Node
 After reattaching to the tmux session, follow the prompts to configure the node by entering the following information:
 
 - Your wallet address
