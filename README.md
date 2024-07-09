@@ -26,4 +26,9 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/rivalz-node-cli-installer.git
-cd rivalz-node-cli-installer
+cd rivalz-node-cli-installer ```
+
+
+
+###Step 2: Make the Script Executable
+Make the installation script executable:
