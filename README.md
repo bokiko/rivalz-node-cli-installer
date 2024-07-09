@@ -6,13 +6,13 @@ Welcome to the Rivalz Node CLI installation script repository. This repository c
 
 Ensure your system meets the following requirements:
 
--RAM 4GB
+- RAM 4GB
 
--4 Cores (2.2GHz)
+- 4 Cores (2.2GHz)
 
--50GB SSD
+- 50GB SSD
 
--1Mbps Internet
+- 1Mbps Internet
 
 - Ubuntu operating system
 
@@ -50,12 +50,12 @@ tmux attach -t rclient_session
 ## Step 5: Configure the Node
 After reattaching to the tmux session, follow the prompts to configure the node by entering the following information:
 
--Your wallet address
--CPU cores
--RAM size
--Select disk type (click enter if you have only one)
--Select disk serial number (click enter)
--Enter disk size you want to allow the client to use
+- Your wallet address
+- CPU cores
+- RAM size
+- Select disk type (click enter if you have only one)
+- Select disk serial number (click enter)
+- Enter disk size you want to allow the client to use
 
 ## What the Script Does
 -Updates and upgrades the system to ensure all packages are current.
