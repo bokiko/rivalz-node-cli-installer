@@ -32,22 +32,22 @@ cd rivalz-node-cli-installer
 
 
 
-###Step 2: Make the Script Executable
+## Step 2: Make the Script Executable
 Make the installation script executable:
 ```bash
 chmod +x install_rclient.sh
 ```
-###Step 3: Run the Script
+## Step 3: Run the Script
 Execute the script to install and run the Rivalz Node CLI:
 ```bash
 ./install_rclient.sh
 ```
-###Step 4: Reattach to the tmux Session
+## Step 4: Reattach to the tmux Session
 To reattach to the tmux session where the Rivalz Node CLI is running:
 ```bash
 tmux attach -t rclient_session
 ```
-###Step 5: Configure the Node
+## Step 5: Configure the Node
 After reattaching to the tmux session, follow the prompts to configure the node by entering the following information:
 
 -Your wallet address
@@ -57,7 +57,7 @@ After reattaching to the tmux session, follow the prompts to configure the node 
 -Select disk serial number (click enter)
 -Enter disk size you want to allow the client to use
 
-###What the Script Does
+## What the Script Does
 -Updates and upgrades the system to ensure all packages are current.
 -Installs Node.js and NPM using NodeSource.
 -Verifies the installation of Node.js and NPM.
@@ -66,7 +66,7 @@ After reattaching to the tmux session, follow the prompts to configure the node 
 -Installs tmux for session management.
 -Starts a new tmux session named rclient_session and runs rivalz run inside it.
 
-###Using tmux to Check the node
+## Using tmux to Check the node
 To attach to the tmux session:
 ```bash
 tmux attach -t rclient_session
@@ -75,10 +75,10 @@ To detach from the tmux session (without stopping the process):
 
 Press Ctrl+B, then D.
 
-###Contributing
+## Contributing
 Feel free to fork this repository, make improvements, and submit pull requests. We welcome contributions from the community!
 
-###License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
