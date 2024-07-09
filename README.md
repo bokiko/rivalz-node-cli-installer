@@ -56,15 +56,16 @@ After reattaching to the tmux session, follow the prompts to configure the node 
 - Select disk type (click enter if you have only one)
 - Select disk serial number (click enter)
 - Enter disk size you want to allow the client to use
+- you can safely close the SSH screen, the node will continue working
 
 ## What the Script Does
--Updates and upgrades the system to ensure all packages are current.
--Installs Node.js and NPM using NodeSource.
--Verifies the installation of Node.js and NPM.
--Installs the Rivalz Node CLI globally using NPM.
--Verifies the installation of the Rivalz Node CLI.
--Installs tmux for session management.
--Starts a new tmux session named rclient_session and runs rivalz run inside it.
+- Updates and upgrades the system to ensure all packages are current.
+- Installs Node.js and NPM using NodeSource.
+- Verifies the installation of Node.js and NPM.
+- Installs the Rivalz Node CLI globally using NPM.
+- Verifies the installation of the Rivalz Node CLI.
+- Installs tmux for session management.
+- Starts a new tmux session named rclient_session and runs rivalz run inside it.
 
 ## Using tmux to Check the node
 To attach to the tmux session:
