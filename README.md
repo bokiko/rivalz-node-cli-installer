@@ -59,14 +59,26 @@ After reattaching to the tmux session, follow the prompts to configure the node 
 
 
 
-## Using tmux to Check the node
-To attach to the tmux session:
+## Using tmux to Check the node or restart the node
+
+If the node restarts you can start new session by:
 ```bash
-tmux attach -t rclient_session
+tmux new -s rclient_session
+```
+start the node inside the session:
+```bash
+rivalz run
 ```
 To detach from the tmux session (without stopping the process):
 
 Press Ctrl+B, then D.
+
+
+To attach to the tmux session:
+```bash
+tmux attach -t rclient_session
+```
+
 
 ## Contributing
 Feel free to fork this repository, make improvements. We welcome contributions from the community!
