@@ -67,7 +67,7 @@ tmux new -s rclient_session
 ```
 start the node inside the session:
 ```bash
-rivalz run
+sudo rivalz run
 ```
 To detach from the tmux session (without stopping the process):
 
