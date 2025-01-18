@@ -21,17 +21,17 @@ else
     exit 1
 fi
 
-# Install rClient CLI globally
-echo "Installing rClient CLI globally..."
+# Install Rivalz Node CLI globally
+echo "Installing Rivalz Node CLI globally..."
 sudo npm i -g rivalz-node-cli
 
-# Verify rClient CLI installation
-echo "Verifying rClient CLI installation..."
+# Verify Rivalz Node CLI installation
+echo "Verifying Rivalz Node CLI installation..."
 if command -v rivalz &> /dev/null
 then
-    echo "rClient CLI installed successfully!"
+    echo "Rivalz Node CLI installed successfully!"
 else
-    echo "rClient CLI installation failed."
+    echo "Rivalz Node CLI installation failed."
     exit 1
 fi
 
@@ -39,12 +39,12 @@ fi
 echo "Installing tmux..."
 sudo apt install -y tmux
 
-# Start a new tmux session and run the rClient CLI inside it
-echo "Starting a new tmux session and running rClient CLI..."
-tmux new-session -d -s rclient_session 'rivalz run'
+# Start a new tmux session and run the Rivalz Node CLI inside it with sudo
+echo "Starting a new tmux session and running Rivalz Node CLI with sudo..."
+tmux new-session -d -s rclient_session 'sudo rivalz run'
 
 # Provide instructions to attach to the tmux session
 echo "To attach to the tmux session, use the following command:"
 echo "tmux attach -t rclient_session"
 
-echo "rClient CLI setup completed successfully!"
+echo "Rivalz Node CLI setup completed successfully!"
