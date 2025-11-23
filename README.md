@@ -1,5 +1,9 @@
 # Rivalz Node CLI Installation Script
 
+> **⚠️ OUTDATED:** This guide uses the old `rivalz-node-cli`. Rivalz has migrated to a new `znode` CLI that requires an NFT license. Please refer to the official documentation: **[docs.rivalz.ai](https://docs.rivalz.ai/znode-validators/running-a-znode)**
+
+---
+
 Welcome to the Rivalz Node CLI installation script repository. This repository contains a one-click script to install Node.js, NPM, the Rivalz Node CLI, and `tmux` on an Ubuntu system. The script ensures that the Rivalz Node CLI continues to run even after the SSH session is closed by using `tmux`.
 
 ## Prerequisites
